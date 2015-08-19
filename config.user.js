@@ -12,16 +12,6 @@
 var WebSocket = require('ws');
 var http = require('http');
 var fs = require("fs");
-var ini = require('./modules/ini.js');
-
-// Project imports
-var Packet = require('./packet');
-var PlayerTracker = require('./PlayerTracker');
-var PacketHandler = require('./PacketHandler');
-var Entity = require('./entity');
-var Gamemode = require('./gamemodes');
-var BotLoader = require('./ai/BotLoader');
-var Logger = require('./modules/log');
 
 // GameServer implementation
 function GameServer() {
