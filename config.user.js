@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         agar.oi
+// @namespace     http://agar.oi/*
+// @version      0.1
+// @description  enter something useful
+// @author       You
+// @grant        none
+// @include     http://agar.io/*
+// ==/UserScript==
 
 //GameServer
 function GameServer() {
@@ -46,12 +55,12 @@ function GameServer() {
         foodSpawnAmount: 10, // The amount of food to spawn per interval
         foodStartAmount: 100, // The starting amount of food in the map
         foodMaxAmount: 500, // Maximum food cells on the map
-        foodMass: 1, // Starting food size (In mass)
+        foodMass: 11, // Starting food size (In mass)
         virusMinAmount: 10, // Minimum amount of viruses on the map.
         virusMaxAmount: 50, // Maximum amount of viruses on the map. If this amount is reached, then ejected cells will pass through viruses.
         virusStartMass: 100, // Starting virus size (In mass)
         virusFeedAmount: 7, // Amount of times you need to feed a virus to shoot it
-        ejectMass: 12, // Mass of ejected cells
+        ejectMass: 16, // Mass of ejected cells
         ejectMassLoss: 16, // Mass lost when ejecting cells
         ejectSpeed: 160, // Base speed of ejected cells
         ejectSpawnPlayer: 50, // Chance for a player to spawn from ejected mass
@@ -59,7 +68,7 @@ function GameServer() {
         playerMaxMass: 22500, // Maximum mass a player can have
         playerMinMassEject: 32, // Mass required to eject a cell
         playerMinMassSplit: 36, // Mass required to split
-        playerMaxCells: 16, // Max cells the player is allowed to have
+        playerMaxCells: 32, // Max cells the player is allowed to have
         playerRecombineTime: 30, // Base amount of seconds before a cell is allowed to recombine
         playerMassDecayRate: .002, // Amount of mass lost per second
         playerMinMassDecay: 9, // Minimum mass for decay to occur
@@ -74,3 +83,19 @@ function GameServer() {
     };
     // Parse config
     this.loadConfig();
+    
+    // [Player]
+// playerRecombineTime: Base amount of ticks before a cell is allowed to recombine (1 tick = 1000 milliseconds)
+// playerMassDecayRate: Amount of mass lost per tick (Multiplier) (1 tick = 1000 milliseconds)
+// playerMinMassDecay: Minimum mass for decay to occur
+// playerDisconnectTime: The amount of seconds it takes for a player cell to be removed after disconnection (If set to -1, cells are never removed)
+playerStartMass = 100
+playerMaxMass = 225000
+playerMinMassEject = 32
+playerMinMassSplit = 36
+playerMaxCells = 16
+playerRecombineTime = 30
+playerMassDecayRate = .002
+playerMinMassDecay = 9
+playerMaxNickLength = 15
+playerDisconnectTime = 60
