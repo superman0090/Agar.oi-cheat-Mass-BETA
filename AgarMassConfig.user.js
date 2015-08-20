@@ -8,4 +8,22 @@
 // @include      http://agar.io/*
 // ==/UserScript==
 
-Mass: <input type="text" id="Mass" value="100">
+<!DOCTYPE html>
+<html>
+<body>
+
+Name: <input type="text" id="myText" value="100">
+
+<p>Click the button to change the value of the text field.</p>
+
+<button onclick="myFunction()">Mass</button>
+
+<script>
+function myFunction() {
+    document.getElementById("myText").value = "100";
+}
+</script>
+
+</body>
+</html>
+
