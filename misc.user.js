@@ -3,7 +3,7 @@
 // @namespace    misc
 // @version      1
 // @grant       none
-// @description  AgarMass Cheat Config
+// @description  AgarMassCheatConfig
 // @author       http://www.twitch.tv/lefela44
 // @include      http://agar.io/*
 // ==/UserScript==
