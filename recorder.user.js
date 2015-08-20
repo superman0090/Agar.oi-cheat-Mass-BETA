@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         AgarMassConfig
-// @namespace    AgarMassCinfig
+// @name         recorder
+// @namespace    recorder
 // @version      1
 // @grant       none
 // @description  AgarMass Cheat Config
