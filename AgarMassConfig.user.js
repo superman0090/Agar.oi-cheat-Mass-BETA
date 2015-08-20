@@ -8,9 +8,4 @@
 // @include      http://agar.io/*
 // ==/UserScript==
 
-<!DOCTYPE html>
-<html>
-    <body>
 Mass: <input type="text" id="Mass" value="100">
-    </body>
-</html>
