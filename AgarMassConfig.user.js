@@ -8,16 +8,6 @@
 // @include      http://agar.io/*
 // ==/UserScript==
 
-// ==UserScript==
-// @name         Agar.io connector.
-// @namespace    http://msparp.com/
-// @version      0.2
-// @description  Allows you to manually enter a server IP.
-// @author       capableResistor
-// @match        http://agar.io/
-// @grant        none
-// ==/UserScript==
-
 $(document).ready(function() {
     var region = $("#region");
     if (region.length) {
