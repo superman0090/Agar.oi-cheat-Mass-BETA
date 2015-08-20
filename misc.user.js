@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Misc
-// @namespace    Misc
+// @name         misc
+// @namespace    misc
 // @version      1
 // @grant       none
 // @description  AgarMass Cheat Config
