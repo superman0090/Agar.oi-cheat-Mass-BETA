@@ -10,7 +10,6 @@
 
 var fs = require('fs');
 var http = require('http');
-
 var misc = {
     force: false, //ignore params.extract()
 
