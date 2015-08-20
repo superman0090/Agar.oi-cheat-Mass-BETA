@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         agar.oi
-// @namespace     http://agar.oi/*
-// @version      0.1
-// @description  enter something useful
-// @author       You
-// @grant        none
-// @include     http://agar.io/*
+// @name         AgarMass
+// @namespace    AgarMass
+// @version      1
+// @grant       none
+// @description  AgarMass Cheat
+// @author       http://www.twitch.tv/lefela44
+// @include      http://agar.io/*
 // ==/UserScript==
 
 // Library imports
