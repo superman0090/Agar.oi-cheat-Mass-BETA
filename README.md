@@ -1,7 +1,7 @@
 # Agar.oi-cheat-Mass-BETA
 # ***IMPORTANT***
 1. THIS IS A COPYRIGHT (c)
-2. TO INSTALL SCRIPT LOOK HERE : 
+2. TO INSTALL SCRIPT LOOK HERE : VIDEO:
 3. Install this : https://chrome.google.com/webstore/detail/result-preview/geogklgaaafmfijgfninjjbcinicfafb
 4. And go here : http://agar.io/
 5. Write this in IP : ws://192.168.1.81:4545
