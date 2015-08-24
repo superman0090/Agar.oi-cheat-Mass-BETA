@@ -57,20 +57,20 @@ function GameServer() {
         borderTop: 0, // Top border of map (Vanilla value: 0)
         borderBottom: 6000, // Bottom border of map (Vanilla value: 11180.3398875)
         spawnInterval: 20, // The interval between each food cell spawn in ticks (1 tick = 50 ms)
-        foodSpawnAmount: 10, // The amount of food to spawn per interval
+        foodSpawnAmount: 100, // The amount of food to spawn per interval
         foodStartAmount: 100, // The starting amount of food in the map
-        foodMaxAmount: 500, // Maximum food cells on the map
-        foodMass: 1, // Starting food size (In mass)
-        virusMinAmount: 10, // Minimum amount of viruses on the map.
-        virusMaxAmount: 50, // Maximum amount of viruses on the map. If this amount is reached, then ejected cells will pass through viruses.
-        virusStartMass: 100, // Starting virus size (In mass)
-        virusFeedAmount: 7, // Amount of times you need to feed a virus to shoot it
-        ejectMass: 12, // Mass of ejected cells
-        ejectMassLoss: 16, // Mass lost when ejecting cells
+        foodMaxAmount: 100, // Maximum food cells on the map
+        foodMass: 3, // Starting food size (In mass)
+        virusMinAmount: 1, // Minimum amount of viruses on the map.
+        virusMaxAmount: 1, // Maximum amount of viruses on the map. If this amount is reached, then ejected cells will pass through viruses.
+        virusStartMass: 1, // Starting virus size (In mass)
+        virusFeedAmount: 1, // Amount of times you need to feed a virus to shoot it
+        ejectMass: 250, // Mass of ejected cells
+        ejectMassLoss: 1, // Mass lost when ejecting cells
         ejectSpeed: 160, // Base speed of ejected cells
         ejectSpawnPlayer: 50, // Chance for a player to spawn from ejected mass
-        playerStartMass: 10, // Starting mass of the player cell.
-        playerMaxMass: 22500, // Maximum mass a player can have
+        playerStartMass: 500, // Starting mass of the player cell.
+        playerMaxMass: 2250000000000, // Maximum mass a player can have
         playerMinMassEject: 32, // Mass required to eject a cell
         playerMinMassSplit: 36, // Mass required to split
         playerMaxCells: 16, // Max cells the player is allowed to have
